@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App5"
+             x:Class="App5.MainPage">
+
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="199.960629145304*" />
+                <RowDefinition Height="71.875*" />
+                <RowDefinition Height="728.164370854696*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="331.773093894676*" />
+                <ColumnDefinition Width="333.333333333333*" />
+                <ColumnDefinition Width="334.893572771991*" />
+            </Grid.ColumnDefinitions>
+            <Entry Placeholder="back entry" Grid.Row="1"  Grid.Column="1" IsEnabled="true"/>
+            <Grid BackgroundColor ="Blue" Opacity="0.2" Grid.Row="0"  Grid.Column="0" InputTransparent="True"/>
+            <Grid BackgroundColor ="LightBlue" Opacity="0.2" Grid.Row="0"  Grid.Column="1" InputTransparent="True"/>
+            <Grid BackgroundColor ="Blue" Opacity="0.2" Grid.Row="0"  Grid.Column="2" InputTransparent="True"/>
+            <Grid BackgroundColor ="LightBlue" Opacity="0.2" Grid.Row="1"  Grid.Column="0" InputTransparent="True"/>
+            <Grid BackgroundColor ="LightBlue" Opacity="0.2" Grid.Row="1"  Grid.Column="2" InputTransparent="True"/>
+            <Grid BackgroundColor ="Blue" Opacity="0.2" Grid.Row="2"  Grid.Column="0" InputTransparent="True"/>
+            <Grid BackgroundColor ="LightBlue" Opacity="0.2" Grid.Row="2"  Grid.Column="1" InputTransparent="True"/>
+            <Grid BackgroundColor ="Blue" Opacity="0.2" Grid.Row="2"  Grid.Column="2" InputTransparent="True"/>
+        </Grid>
+        <Grid InputTransparent="False">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="89.5439624786377*" />
+                <RowDefinition Height="76.0416666666667*" />
+                <RowDefinition Height="834.414370854696*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="31.7731080231843*" />
+                <ColumnDefinition Width="400.333333333333*" />
+                <ColumnDefinition Width="340.8935586434823*" />
+            </Grid.ColumnDefinitions>
+            <Entry Placeholder="front entry" Grid.Row="1"  Grid.Column="1" IsEnabled="true"/>
+            <Grid BackgroundColor ="Gray" Opacity="0.5" Grid.Row="0"  Grid.Column="0" InputTransparent="True"/>
+            <Grid BackgroundColor ="LightGray" Opacity="0.5" Grid.Row="0"  Grid.Column="1" InputTransparent="True"/>
+            <Grid BackgroundColor ="Gray" Opacity="0.5" Grid.Row="0"  Grid.Column="2" InputTransparent="True"/>
+            <Grid BackgroundColor ="LightGray" Opacity="0.5" Grid.Row="1"  Grid.Column="0" InputTransparent="True"/>
+            <Grid BackgroundColor ="LightGray" Opacity="0.5" Grid.Row="1"  Grid.Column="2" InputTransparent="True"/>
+            <Grid BackgroundColor ="Gray" Opacity="0.5" Grid.Row="2"  Grid.Column="0" InputTransparent="True"/>
+            <Grid BackgroundColor ="LightGray" Opacity="0.5" Grid.Row="2"  Grid.Column="1" InputTransparent="True"/>
+            <Grid BackgroundColor ="Gray" Opacity="0.5" Grid.Row="2"  Grid.Column="2" InputTransparent="True"/>
+        </Grid>
+    </Grid>
+
+</ContentPage>
